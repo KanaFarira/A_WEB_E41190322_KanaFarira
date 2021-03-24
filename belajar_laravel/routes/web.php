@@ -18,3 +18,5 @@ use App\Http\Controllers\ManagementUserController;
 //    return view('welcome');
 //});
 Route::resource('/user', 'App\Http\Controllers\ManagementUserController');
+Route::resource('/create', 'App\Http\Controllers\ManagementUserController');
+Route::resource('/user/1/edit', 'App\Http\Controllers\ManagementUserController');
