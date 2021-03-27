@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale())}}">
 <head>
     <meta charset="UTF-8">
@@ -9,8 +9,11 @@
 <body>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            @yield('content')
+           @yield('content')
         </div>
     </div>
 </body>
-</html> -->
+</html>
+
+
+
