@@ -20,4 +20,6 @@ use App\Http\Controllers\ManagementUserController;
 Route::resource('/user', 'App\Http\Controllers\ManagementUserController');
 Route::resource('/create', 'App\Http\Controllers\ManagementUserController');
 Route::resource('/user/1/edit', 'App\Http\Controllers\ManagementUserController');
-Route::get('/home', [App\Http\controllers\ManagementUserController::class, 'home']);
+Route::get ("/home", function(){
+        return view("home");
+});
