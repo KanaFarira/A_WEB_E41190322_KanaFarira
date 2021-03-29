@@ -11,7 +11,7 @@ class ManagementUserController extends Controller
         //return "method ini nantinya digunakan untuk mengambil semua data user";
     $name = "Kana Farira Salsabila";
     $pelajaran =["Workshop Web Framework", "Workshop Aplikasi Mobile"];
-    return view('home', compact('nama','pelajaran'));
+    return view('home', compact('name','pelajaran'));
     }
 
     public function create()
