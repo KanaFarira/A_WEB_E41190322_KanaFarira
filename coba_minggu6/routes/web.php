@@ -20,3 +20,15 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::resource('pendidikann', 'PendidikanController');
+Route::resource('pengalaman_kerja', 'PengalamanKerjaController');
+
+
+//Route::get('/home', function () {
+  //  return view('frontend/layouts/home');
+//});
+Route::get('/dashboard', function () {
+    return view('backend/layouts/dashboard');
+});
+
+
